@@ -14,7 +14,7 @@
     <div class="container">
       <div class="header__inner">
         <a href="./index.html">
-          <img src="./images/logo.svg" width="178" height="37" alt="site logo img">
+          <img class="header__img" src="./images/logo.svg" width="178" height="37" alt="site logo img">
         </a>
         
         <nav class="menu">
@@ -26,10 +26,10 @@
               <a class="menu__link" href="#">Customers</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link menu__link--modifile2" href="#">Pricing</a>
+              <a class="menu__link" href="#">Pricing</a>
             </li>
             <li class="menu__item">
-              <a class="menu__link" href="#">Resources</a>
+              <a class="menu__link menu__link--modifile2" href="#">Resources</a>
             </li>
             <li class="menu__item">
               <a class="menu__link menu__link--modifile" href="#">Sign In</a>
@@ -49,185 +49,22 @@
     </div>
   </header>
   <main>
-    <section class="pricing">
+    <section class="hero">
       <div class="container">
-        <div class="pricing__info">
-          <strong class="pricing__strong">PRICING</strong>
-          <h2 class="pricing__title">Let’s get some real work done here.</h2>
-          <p class="pricing__text">Prodict is your perfect solution for working. Get started now for free</p>
-        </div>
-        
-        <ul class="pricing__list">
-          <li class="pricing__item">
-            <h3 class="pricing__subtitle">Free</h3>
-            <p class="pricing__pricing-subtext">Brief price description</p>
-            <div class="pricing__number">
-              <span class="pricing__span">0</span>
-              <span class="pricing__span1">$<br></span>
-              <br>
-              <p class="pricing__span-text"><br><br>Per / month</p>
-            </div>
-            <small class="pricing__small">
-              Only 2 Operators
-              <br>
-              <br>
-              Notifications
-              <br>
-              <br>
-              Landing Pages
-              <br>
-            </small>
-            <a class="pricing__link" href="#">Order Now</a>
-          </li>
-          
-          <li class="pricing__item pricing__item--modifile">
-            <h3 class="pricing__subtitle pricing__subtitle--modifile">Free</h3>
-            <p class="pricing__pricing-subtext pricing__subtext--modifile">Brief price description</p>
-            <div class="pricing__number">
-              <span class="pricing__span pricing__span--modifile">0</span>
-              <span class="pricing__span1 pricing__span1--modifile">$<br></span>
-              <br>
-              <p class="pricing__span-text pricing__span-text--modifile"><br><br>Per / month</p>
-            </div>
-            <small class="pricing__small pricing__small--modifile">
-              Only 2 Operators
-              <br>
-              <br>
-              Notifications
-              <br>
-              <br>
-              Landing Pages
-              <br>
-            </small>
-            <a class="pricing__link pricing__link--modifile" href="#">Order Now</a>
-          </li>
-          
-          <li class="pricing__item">
-            <h3 class="pricing__subtitle">Free</h3>
-            <p class="pricing__pricing-subtext">Brief price description</p>
-            <div class="pricing__number">
-              <span class="pricing__span">0</span>
-              <span class="pricing__span1">$<br></span>
-              <br>
-              <p class="pricing__span-text"><br><br>Per / month</p>
-            </div>
-            <small class="pricing__small">
-              Only 2 Operators
-              <br>
-              <br>
-              Notifications
-              <br>
-              <br>
-              Landing Pages
-              <br>
-            </small>
-            <a class="pricing__link" href="#">Order Now</a>
-          </li>
-        </ul>
-      </div>
-    </section>
-    <section class="custom">
-      <div class="container">
-        <div class="pricing__info custom__info">
-          <strong class="pricing__strong">PRICING</strong>
-          <h2 class="pricing__title">Let’s get some real work done here.</h2>
-          <p class="pricing__text custom__text">Prodict is your perfect solution for working. Get started now for free</p>
-          <a class="menu__link menu__link--modifile1" href="#">Get in touch with us</a>
+        <div class="hero__inner">
+          <div class="hero__info">
+            <h2 class="hero__title">Great Business <br> made with Product.</h2>
+            <p class="hero__text">Build better customer relationships easily messaging that provides a more personal experience for you and your customers.</p>
+            <form class="position-relative" action="https://echo.htmlacademy.ru/" method="POST">
+              <input class="form-control input" type="email" placeholder="Enter your email adress" aria-label="Enter your email adress" name="user_email" required>
+              <button class="btn button2" type="submit">Join Now</button>
+            </form>
+            <span  class="hero__sub-text">Join over <span class="hero__color">4,000+</span> other</span>
+          </div>
         </div>
       </div>
     </section>
-    <section class="alongside">
-      <div class="container">
-        <h2 class="alongside__title">Product is being used with great effects alongside:</h2>
-        <div class="alongside__inner">
-          <img class="alongside__img" src="./images/amico.png" width="528" height="392" alt="compyuter">
-          <ul class="alongside__list">
-            <li class="alongside__item">
-              <h3 class="alongside__subtitle">Enterpreneur</h3>
-              <p class="alongside__text">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
-            </li>
-            <li class="alongside__item">
-              <h3 class="alongside__subtitle">Enterpreneur</h3>
-              <p class="alongside__text">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
-            </li>
-            <li class="alongside__item">
-              <h3 class="alongside__subtitle">Enterpreneur</h3>
-              <p class="alongside__text">Product is a great way to help medium and samall enterprise owners achieve their goals</p>
-            </li>
-          </ul>
-        </div>
-      </div>
-    </section>
-    <section class="asked">
-      <div class="container">
-        <h2 class="asked__title text-center">Frequently asked question</h2>
-        <p class="text-center mb-5">Something is not clear? You need help? Check our FAQ section</p>
-        <div class="accordion" id="accordionPanelsStayOpenExample">
-          <div class="accordion-item position-relative">
-            <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-              <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                What are my payment option?
-              </button>
-            </h2>
-            <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-              <div class="accordion-body">
-                <strong>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.
-                </div>
-              </div>
-            </div>
-            <div class="accordion-item position-relative">
-              <h2 class="accordion-header" id="panelsStayOpen-headingTwo">
-                <button class="accordion-button collapsed text-dark" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseTwo" aria-expanded="false" aria-controls="panelsStayOpen-collapseTwo">
-                  How can I invite collaborator to platform?
-                </button>
-                
-              </h2>
-              <div id="panelsStayOpen-collapseTwo" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingTwo">
-                <div class="accordion-body">
-                  <strong>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.
-                  </div>
-                </div>
-              </div>
-              <div class="accordion-item">
-                <h2 class="accordion-header" id="panelsStayOpen-headingThree">
-                  <button class="accordion-button collapsed" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseThree" aria-expanded="false" aria-controls="panelsStayOpen-collapseThree">
-                    Can I upgrade my plan?
-                  </button>
-                </h2>
-                <div id="panelsStayOpen-collapseThree" class="accordion-collapse collapse" aria-labelledby="panelsStayOpen-headingThree">
-                  <div class="accordion-body">
-                    <strong>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.
-                    </div>
-                  </div>
-                </div>
-                <div class="accordion-item">
-                  <h2 class="accordion-header" id="panelsStayOpen-headingOne">
-                    <button class="accordion-button" type="button" data-bs-toggle="collapse" data-bs-target="#panelsStayOpen-collapseOne" aria-expanded="true" aria-controls="panelsStayOpen-collapseOne">
-                      Can I cancel my plan at anytime?
-                    </button>
-                  </h2>
-                  <div id="panelsStayOpen-collapseOne" class="accordion-collapse collapse show" aria-labelledby="panelsStayOpen-headingOne">
-                    <div class="accordion-body">
-                      <strong>After creating your account you will have an oppurtunity to create your first project that will be associated withthe collaborators e-mail. An invitation  will be sent automatically. Then, invited user will have to confirm his account by e-mail and finish userd onboarding.
-                      </div>
-                    </div>
-                  </div>
-                </div>
-              </div>
-            </section>
-            <section class="join">
-              <div class="container">
-                <div class="join__inner">
-                  <div class="join__info">
-                    <h2 class="join__title">Join 100 Compannies who boost their business with <br> Product</h2>
-                    <a class="join__link" href="#">Get This</a>
-                  </div>
-                  <img src="./images/screen.png" width="351" height="331" alt="list">
-                </div>
-              </div>
-            </section>
-          </main>
-          
-          <script src="./css/bootstrap.js"></script>
-        </body>
-        </html>
+  </main>
+  <script src="./js/main.js"></script>
+</body>
+</html>
