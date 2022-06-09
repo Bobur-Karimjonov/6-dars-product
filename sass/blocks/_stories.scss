@@ -1,0 +1,121 @@
+  .stories{
+    padding-top: 67px;
+  }
+
+  .stories__title{
+    font-weight: 700;
+    font-size: 34px;
+    line-height: 51px;
+    color: #22343D;
+  }
+  .stories__p{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 26px;
+    margin-bottom: 50px;
+  }
+  // .stories__inner {
+  //   }
+  .stories__list {
+    margin: 0;
+    padding-left: 0;
+    list-style-type: none;
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    justify-content: center ;
+    margin: -32px;
+  }
+  .stories__item {
+    margin: 16px;
+    width: 348px;
+    background: #FFFFFF;
+    border-radius: 8px;
+    border: 1px solid #EAEAEA;
+  }
+  .stories__img {
+    width: 348px;
+    height: 187px;
+    border-top-left-radius: 8px;
+    border-top-right-radius: 8px;
+  }
+  .stories__body {
+    padding: 22px 30px 40px 24px;
+  }
+  .stories__text {
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 28px;
+    color: #22343D;
+    margin: 0;
+    margin-bottom: 12px;
+  }
+  .stories__color {
+    font-weight: 700;
+  }
+  .stories__sub-title {
+    margin: 0;
+    font-weight: 700;
+    font-size: 24px;
+    line-height: 40px;
+    color: #22343D;
+  }
+  .stories__link{
+    position: relative;
+  }
+  .stories__link::before{
+    position: absolute;
+    top: 8px;
+    left: 608px;
+    content: "";
+    background-image: url(../../images/circle_right.svg);
+    background-repeat: no-repeat;
+    background-size: contain;
+    width: 20px;
+    height: 20px;
+  }
+
+
+  @media only screen and (max-width:568px){
+    .stories{
+      padding: 47px 0;
+    }
+    
+    .stories__inner{
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+    }
+    .stories__link::before{
+      top: 8px;
+      left: 315px;
+    }
+    .stories__p{
+      width: 351px;
+      margin: 0 auto;
+    }
+    .stories__link{
+      margin-top: 50px;
+    }
+  }
+  @media only screen and (max-width:467px){
+    .stories__link::before{
+      top: 8px;
+      left: 267px;
+    }
+  }
+  @media only screen and (max-width:415px){
+    .stories__link::before{
+      top: 8px;
+      left: 240px;
+    }
+  }
+  @media only screen and (max-width:375px){
+    .stories__inner{
+      width: 348px;
+    }
+    .stories__link::before{
+      top: 8px;
+      left: 230px;
+    }
+  }

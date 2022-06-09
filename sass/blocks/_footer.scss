@@ -1,0 +1,151 @@
+.footer{
+  padding: 90px 0 15px;
+
+}
+.footer__inner {
+  display: flex;
+  justify-content: space-between;
+  align-items:flex-start;
+  margin-bottom: 8px;
+}
+.logo {
+  display: flex;
+  flex-direction: column;
+}
+.logo__img {
+  width: 178px;
+  height: 37px;
+  margin-bottom: 27px;
+}
+.logo__list {
+  list-style-type: none;
+  margin: 0;
+  padding-left: 0;
+  display: flex;
+  align-items: center;
+}
+.logo__item + .logo__item {
+  margin-left: 16px;
+}
+.logo__link {
+  display: block;
+}
+.resource {
+  display: flex;
+  align-items: center;
+}
+.resource__list {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+// .resource__item {
+//   margin-bottom: 8px;
+// }
+.resource__link {
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343D;
+}
+.resource__heading {
+  display: block;
+  margin-bottom: 8px;
+  // font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+}
+.legal {
+  display: flex;
+  align-items: center;
+}
+.legal__list {
+  margin: 0;
+  padding-left: 0;
+  list-style-type: none;
+  display: flex;
+  flex-direction: column;
+}
+// .legal__item {
+//   margin-bottom: 8px;
+// }
+.legal__link {
+  display: block;
+  text-decoration: none;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 35px;
+  color: #22343D;
+}
+.legal__heading {
+  display: block;
+  // font-style: normal;
+  // font-weight: 500;
+  font-size: 20px;
+  line-height: 30px;
+  color: #22343D;
+  margin-bottom: 8px;
+}
+.energy {
+  width: 325px;
+}
+.energy__heading{
+  display: block;
+  margin-bottom: 34px;
+}
+
+.btn-success {
+  background-color: #02897A;
+  font-weight: 700;
+  font-size: 16px;
+  line-height: 24px;
+}
+
+@media only screen and (max-width:568px){
+  .footer{
+    padding: 50px 0 44px;
+  }
+  .footer__inner{
+    width: 400px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  .logo__list{
+    margin-bottom: 32px;
+  }
+  .resource__list{
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .legal__list{
+    margin-bottom: 32px;
+    text-align: center;
+  }
+  .energy__heading{
+    text-align: center;
+  }
+  .btn-success{
+    display: block;
+    // text-align: center;
+    margin-left: auto;margin-right: auto;
+    margin-bottom: 60px;
+  }
+  
+}
+@media only screen and (max-width:375px){
+  .footer__inner{
+    width: 325px;
+    flex-direction: column;
+    align-items: center;
+    margin-left: auto;
+    margin-right: auto;
+  }
+  
+}
